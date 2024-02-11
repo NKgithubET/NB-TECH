@@ -1,22 +1,22 @@
 .text-primary {
-    color: #28ABE3;
+    color: #FFD700;
 }
 
 a {
-    color: #28ABE3;
+    color: 	#FFD700;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #ea321e;
+    color: #000000;
     text-decoration: none;
 }
 
 .btn-primary {
-    border-color: #28ABE3;
-    background-color: #28ABE3;
+    border-color: 	#FFD700;
+    background-color: 	#FFD700;
 }
 
 .btn-primary:hover,
@@ -24,7 +24,7 @@ a.active {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #ea321e;
+    border-color: #000000;
 }
 
 .btn-primary.disabled,
