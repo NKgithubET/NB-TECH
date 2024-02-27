@@ -4,7 +4,7 @@ jQuery(document).ready(function(){
 	// Show Colors Panel
 	jQuery('#show-panel').click(function(){
 		if(jQuery(this).hasClass('show-panel')) {
-			jQuery('.colors-switcher').css({'right': 0});
+			jQuery('.colors-switcher').css({'right': '0px'});
 			jQuery('#show-panel').removeClass('show-panel');
 			jQuery('#show-panel').addClass('hide-panel');
 		}else if(jQuery(this).hasClass('hide-panel')) {
