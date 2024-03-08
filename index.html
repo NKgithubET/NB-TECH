@@ -882,15 +882,19 @@
     <div class="inner-container">
         <h1>Our Price</h1>
         <label>
-            <input type="checkbox" id="basicCheckbox"> Basic Website (7000 ETB)
+            <input type="checkbox" class="websiteCheckbox" data-cost="7000"> Basic Website (7,000 ETB)
         </label>
         <br>
+        <label>
+            <input type="checkbox" class="websiteCheckbox" data-cost="15000"> Full-stack Website (15,000 ETB)
+        </label>
         <label for="pagesSlider">Number of Pages: <span id="pagesCount">0</span></label>
-        <input type="range" id="pagesSlider" min="1" max="30" value="1">
-        <p id="pagesInfo">Additional page = 1 x 1000 ETB</p>
+        <input type="range" id="pagesSlider" min="0" max="30" value="0">
+        <p id="pagesInfo">Additionl page = Number of page x 1000 <br>Additional page = <span id="additionalPagesCost">0</span> ETB </br></p>
         <br>
         <h4>Total Price: <span id="totalPrice">0</span> ETB</h4>
     </div>
+</div>
 </div>
 
     
